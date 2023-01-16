@@ -4,6 +4,7 @@ const cors = require('cors');
 
 app.set('port', process.env.PORT || 3001);
 app.use(cors());
+app.use(express.json())
 app.locals.title = 'Mad Libs API'
 app.locals.madlibs = 
 [
@@ -240,3 +241,4 @@ app.delete('/madlibs/favorites/:id', (req, res) => {
   res.status(200).json(app.locals.favorites);
 })
 
+module.exports = app;
