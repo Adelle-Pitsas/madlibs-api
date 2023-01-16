@@ -10,9 +10,9 @@ app.locals.madlibs =
   {
     id: 1,
     quote: "'The way to get started is to quit talking and begin doing.' -Walt Disney",
-    parsedQuote: "The way to get pastTenseVerb is to quit talking and begin ingVerb",
-    wordsNeeded: ["pastTenseVerb", "ingVerb"],
-    partsOfSpeech: ["Past-tense verb", "Verb ending in '-ing'"]
+    parsedQuote: "The way to get pluralNoun is to quit talking and begin ingVerb",
+    wordsNeeded: ["pluralNoun", "ingVerb"],
+    partsOfSpeech: ["Plural noun", "Verb ending in '-ing'"]
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ app.locals.madlibs =
     id: 4,
     quote: "'You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.' -Dr. Seuss",
     parsedQuote: "You have brains in your noun. You have bodyPart in your shoes. You can verb yourself in any direction you choose. -Dr. Seuss",
-    wordsNeeded: ["Noun", "bodyPart", "Verb"],
+    wordsNeeded: ["noun", "bodyPart", "verb"],
     partsOfSpeech: ["Noun", "Body part", "Verb"]
   },
   {
@@ -66,8 +66,8 @@ app.locals.madlibs =
   {
     id: 9,
     quote: "'You only live once, but if you do it right, once is enough.' ― Mae West",
-    parsedQuote: 'You only verb once, but if you do it adverb, once is enough. - Mae West',
-    wordsNeeded: ['verb', 'adverb'],
+    parsedQuote: 'You only verb1 once, but if you do it adverb, once is enough. - Mae West',
+    wordsNeeded: ['verb1', 'adverb'],
     partsOfSpeech: ["Verb", "Adverb"]
   },
   {
@@ -80,7 +80,7 @@ app.locals.madlibs =
   {
     id: 11,
     quote: "'To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.' ― Ralph Waldo Emerson",
-    parsedQuote: "To be mammal in a world that is constantly trying to make you noun is the estAdjective accomplishment. ― Ralph Waldo Emerson",
+    parsedQuote: "To be a mammal in a world that is constantly trying to make you a noun is the estAdjective accomplishment. ― Ralph Waldo Emerson",
     wordsNeeded: ["mammal", "noun", "estAdjective" ],
     partsOfSpeech: ["Mammal", "Noun", "Adjective ending in '-est'"]
   },
@@ -93,9 +93,10 @@ app.locals.madlibs =
   },
   {
     id: 13,
-    quote: "'manPerson doth think he is wise, but the wise man knows himself to be adjective.' ― William Shakespeare",
-    wordsNeeded: ["manPerson", "adjective"],
-    partsOfSpeech: ["Person who uses he/him pronouns", "adjective"]
+    qupte: "'The fool doth think he is wise, but the wise man knows himself to be a fool.' -William Shakespeare",
+    parsedQuote: "'manPerson doth think he is wise, but the wise man knows himself to be a noun.' ― William Shakespeare",
+    wordsNeeded: ["manPerson", "noun"],
+    partsOfSpeech: ["Person who uses he/him pronouns", "Noun"]
   },
   {
     id: 14,
@@ -107,7 +108,7 @@ app.locals.madlibs =
   {
     id: 15,
     quote: "'What lies behind you and what lies in front of you, pales in comparison to what lies inside of you.' - Ralph Waldo Emerson",
-    parsedQuote: "What lies preposition1 you and what lies preposition2 of you, pales in comparison to what lies preposition3 you. - Ralph Waldo Emerson",
+    parsedQuote: "What lies preposition1 you and what lies preposition2 you, pales in comparison to what lies preposition3 you. - Ralph Waldo Emerson",
     wordsNeeded: ["preposition1", "preposition2", "preposition3"],
     partsOfSpeech: ["Preposition", "Preposition", "Preposition"]
   },
@@ -116,7 +117,7 @@ app.locals.madlibs =
     quote: "'Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime. - Anon'",
     parsedQuote: "Give a man a noun and you feed him for a day; teach a man to verb and you feed him for periodOfTime. - Anon",
     wordsNeeded: ["noun", "verb", "periodOfTime"],
-    partsOfSpeech: ["Noun", "Verb", "PeriodOfTime"]
+    partsOfSpeech: ["Noun", "Verb", "Period Of Time"]
   },
   {
     id: 17, 
@@ -128,7 +129,7 @@ app.locals.madlibs =
   {
     id: 18,
     quote: "'A picture is worth a thousand words' - Anon",
-    parsedQuote: "A noun is worth a number pluralNoun - Anon",
+    parsedQuote: "A noun is worth number pluralNoun - Anon",
     wordsNeeded: ["noun", "number", "pluralNoun"],
     partsOfSpeech: ["Noun", "Number", "Plural noun"]
   },
@@ -149,7 +150,7 @@ app.locals.madlibs =
   {
     id: 21,
     quote: "'It was the best of times, it was the worst of times' - Charles Dickens",
-    parsedQuote: "event1 was the best of times, event2 the worst of times - Charles Dickens",
+    parsedQuote: "event1 was the best of times, event2 was the worst of times - Charles Dickens",
     wordsNeeded: ["event1", "event2"],
     partsOfSpeech: ["Event", "Event"]
   },
