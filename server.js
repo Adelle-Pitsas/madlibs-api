@@ -117,7 +117,7 @@ app.locals.madlibs =
     quote: "'Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime. - Anon'",
     parsedQuote: "Give a man a noun and you feed him for a day; teach a man to verb and you feed him for periodOfTime. - Anon",
     wordsNeeded: ["noun", "verb", "periodOfTime"],
-    partsOfSpeech: ["Noun", "Verb", "PeriodOfTime"]
+    partsOfSpeech: ["Noun", "Verb", "Period Of Time"]
   },
   {
     id: 17, 
