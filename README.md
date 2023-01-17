@@ -21,7 +21,7 @@ This server was created to accompany Madlibs Madness, a project I created for an
 
 | Description |    URL   |  Method  | Required Properties | Sample Successful Resposnse |
 |-------------|----------|----------|---------------------|-----------------------------|
-|Get all madlibs |`/madlibs` | GET | none | array containing 25 objects ({id: number, quote: string, parsedQuote: string', wordsNeeded: [string, string], partsOfSpeech: ["Verb", "Adverb"]}|
+|Get all madlibs |`/madlibs` | GET | none | array containing 25 objects (`{id: number, quote: string, parsedQuote: string', wordsNeeded: [string, string], partsOfSpeech: ["Verb", "Adverb"]}`)|
 |Get all favorites | `/madlibs/favorites` | GET | none | array containing objects |
-|Add a madlib to favoites |`/madlibs/favorites` | POST | {"quote": <string>, "isFavorited": <boolean>} | {id: <number>, quote: <string>, isFavorited: <boolean>}|
+|Add a madlib to favoites |`/madlibs/favorites` | POST | `{"quote": <string>, "isFavorited": <boolean>}` | `{id: <number>, quote: <string>, isFavorited: <boolean>}`|
 |Remove a favorite | `/madlibs/favorites/:id` | DELETE | none | array of remaining favorites (see format above)|
